@@ -308,6 +308,20 @@ hr.small {
     pointer-events: none;
 }
 
+
+/* Organizer Logo */
+
+.organizers-image {
+    text-align: left; /* Center align the image */
+    margin-top: 40px; /* Adjust spacing */
+    margin-left: 5px; /* Adjust spacing */
+  }
+  
+  .small-image {
+    max-width: 120px; /* Adjust the image width */
+    height: auto;
+  }
+
 /* Footer */
 
 footer {
