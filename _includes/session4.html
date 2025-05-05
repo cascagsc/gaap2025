@@ -14,12 +14,80 @@
           <ul>
             <li><p class="lead">Differences amongst postdoctoral systems and hiring structures across the globe</p></li>
             <li><p class="lead">How everyone's path is different; representation of the diversity of considerations to making decisions</p></li>
-            <li><p class="lead"><i><b>Featuring guest speakers:</b></i> Testimonies and advice from previous or current postdocs with diverse experiences from around the world</p></li>
+            <li><p class="lead"><i><b>Featuring invited panelists:</b></i> Testimonies and advice from previous or current postdocs with diverse experiences from around the world</p></li>
             <!-- <li><p class="lead">Representation of two-body problem, representation of success in solving two-body problem, with balance of realism</p></li> -->
           </ul>
+          <!--  -->
+          <br>
+          <div class="tab-container">
+            <button class="tab-button" data-target="tab10"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Invited Panelists</p></button>
+            <button class="tab-button" data-target="tab11"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Slides</p></button>
+            <button class="tab-button" data-target="tab12"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Recording</p></button>
+          </div>
+          
+          <div class="tab-content" id="tab10">
+            <p class="lead" style="margin-left: 15px;"><b>J. J. Zanazzi</b> (51 Pegasi b Fellow, the University of California Berkeley)</p>
+            <p class="lead" style="margin-left: 15px;"><b>William Thompson</b> (Herzberg Instrument Science Fellow, NRC Herzberg Astronomy & Astrophysics)</p>
+            <p class="lead" style="margin-left: 15px;"><b>Matthew Taylor</b> (Assistant Professor of Astronomy, University of Calgary)</p>
+            <p class="lead" style="margin-left: 15px;"><b>Aromal Pathayappura</b> (Postdoctoral Researcher, Western University) </p>
+            <p class="lead" style="margin-left: 15px;"><b>Katie Crotts</b> (Postdoctoral Research Associate, Space Telescope Science Institute)</p>
+            <p class="lead" style="margin-left: 15px;"><b>Matías Bravo</b>, CASCA Postdoctoral Committee (McMaster University)</p>
+          </div>
+          <div class="tab-content" id="tab11"><p class="lead" style="margin-left: 15px;">Will be posted following the session!</p></div>
+          <div class="tab-content" id="tab12"><p class="lead" style="margin-left: 15px;">Will be posted following the session!</p></div>
+          <!--  -->
         </div>
 
       </div>
     </div>
   </div>
 </section>
+
+
+
+<!-- CSS for collapsible -->
+<style>
+  .collapsible {
+    background-color: rgba(0, 0, 0, 0.05); /* Semi-transparent black */
+    color:black;
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    border: 1px solid black; /* Border */
+    border-radius: 10px; /* Rounded corners */
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+  }
+
+  .active, .collapsible:hover {
+    background-color: rgba(0, 0, 0, 0.2); /* Darker on hover/active */
+  }
+
+  .content-collapsible {
+    padding: 10px 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    border-radius: 10px; /* Match rounded corners */
+    margin-top: 5px;
+  }
+</style>
+
+<!-- JavaScript to toggle collapsible -->
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  for (var i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+</script>

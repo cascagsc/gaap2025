@@ -16,9 +16,86 @@
             <li><p class="lead">Essential tips & tricks; where opportunities are advertised; types of opportunities available; typical components of an application; timeline of the application and selection processes</p></li>
             <li><p class="lead">Setting priorities and expectations; statistics to be aware of; the importance of organization tools and communication</p></li>
           </ul>
+          <!--  -->
+          <br>
+          <div class="tab-container">
+            <button class="tab-button" data-target="tab1"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Speakers</p></button>
+            <button class="tab-button" data-target="tab2"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Slides</p></button>
+            <button class="tab-button" data-target="tab3"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Recording</p></button>
+          </div>
+          
+          <div class="tab-content" id="tab1">
+            <p class="lead" style="margin-left: 15px;"><b>Emily Deibert</b>, CASCA Postdoctoral Committee (Gemini Observatory/NSF's NOIRLab)</p>
+            <p class="lead" style="margin-left: 15px;">More to come</p>
+          </div>
+          <div class="tab-content" id="tab2"><p class="lead" style="margin-left: 15px;">Will be posted following the session!</p></div>
+          <div class="tab-content" id="tab3"><p class="lead" style="margin-left: 15px;">Will be posted following the session!</p></div>
+          <!--  -->
         </div>
 
       </div>
     </div>
   </div>
 </section>
+
+
+<!-- CSS for collapsible -->
+<!-- <style>
+  .tab-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  }
+
+  .tab-button {
+    background-color: rgba(0, 0, 0, 0.0);
+    color: black;
+    padding: 10px;
+    border: 1.25px solid rgba(0, 0, 0, 0.95);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1;
+  }
+
+  .tab-button.active,
+  .tab-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+
+  .tab-content {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+
+</style> -->
+
+<!-- JavaScript to toggle collapsible -->
+<!-- <script>
+  const buttons = document.querySelectorAll('.tab-button');
+  const contents = document.querySelectorAll('.tab-content');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      const targetId = button.getAttribute('data-target');
+      const targetContent = document.getElementById(targetId);
+      const isAlreadyActive = button.classList.contains('active');
+
+      // First, close all tabs
+      buttons.forEach(btn => btn.classList.remove('active'));
+      contents.forEach(content => content.style.display = 'none');
+
+      // If it wasn't already active, open it
+      if (!isAlreadyActive) {
+        button.classList.add('active');
+        targetContent.style.display = 'block';
+      }
+    });
+  });
+
+</script> -->

@@ -380,3 +380,38 @@ footer {
 body {
     overflow-x: hidden;
 }
+
+
+/* CUSTOM */
+
+.tab-container {
+display: flex;
+gap: 10px;
+margin-bottom: 10px;
+}
+
+.tab-button {
+    background-color: rgba(0, 0, 0, 0.0);
+    color: black;
+    padding: 10px;
+    border: 1.25px solid rgba(0, 0, 0, 0.95);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1;
+}
+
+.tab-button.active,
+.tab-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.tab-content {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}

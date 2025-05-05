@@ -15,9 +15,87 @@
             <li><p class="lead">Why this is the most important component of your application and what it accomplishes</p></li>
             <li><p class="lead">The qualities of a strong proposal; where to find examples; when & how to start writing</p></li>
           </ul>
+          <!--  -->
+          <br>
+          <div class="tab-container">
+            <button class="tab-button" data-target="tab4"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Speakers</p></button>
+            <button class="tab-button" data-target="tab5"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Slides</p></button>
+            <button class="tab-button" data-target="tab6"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Recording</p></button>
+          </div>
+          
+          <div class="tab-content" id="tab4">
+            <p class="lead" style="margin-left: 15px;"><b>Eric Koch</b> (Submillimeter Array & NSERC Fellow, Center for Astrophysics | Harvard & Smithsonian)</p>
+            <p class="lead" style="margin-left: 15px;"><b>Veronika Dornan</b>, CASCA Graduate Student Committee (McMaster University)</p>
+            <p class="lead" style="margin-left: 15px;"><b>Jess Speedie</b>, CASCA Graduate Student Committee (University of Victoria)</p>
+          </div>
+          <div class="tab-content" id="tab5"><p class="lead" style="margin-left: 15px;">Will be posted following the session!</p></div>
+          <div class="tab-content" id="tab6"><p class="lead" style="margin-left: 15px;">Will be posted following the session!</p></div>
+          <!--  -->
         </div>
 
       </div>
     </div>
   </div>
 </section>
+
+
+<!-- CSS for collapsible -->
+<!-- <style>
+  .tab-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  }
+
+  .tab-button {
+    background-color: rgba(0, 0, 0, 0.0);
+    color: black;
+    padding: 10px;
+    border: 1.25px solid rgba(0, 0, 0, 0.95);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1;
+  }
+
+  .tab-button.active,
+  .tab-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+
+  .tab-content {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+
+</style> -->
+
+<!-- JavaScript to toggle collapsible -->
+<!-- <script>
+  const buttons = document.querySelectorAll('.tab-button');
+  const contents = document.querySelectorAll('.tab-content');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      const targetId = button.getAttribute('data-target');
+      const targetContent = document.getElementById(targetId);
+      const isAlreadyActive = button.classList.contains('active');
+
+      // First, close all tabs
+      buttons.forEach(btn => btn.classList.remove('active'));
+      contents.forEach(content => content.style.display = 'none');
+
+      // If it wasn't already active, open it
+      if (!isAlreadyActive) {
+        button.classList.add('active');
+        targetContent.style.display = 'block';
+      }
+    });
+  });
+
+</script> -->

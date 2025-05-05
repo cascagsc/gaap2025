@@ -192,6 +192,21 @@
             <li><p class="lead">Essential tips & tricks; where opportunities are advertised; types of opportunities available; typical components of an application; timeline of the application and selection processes</p></li>
             <li><p class="lead">Setting priorities and expectations; statistics to be aware of; the importance of organization tools and communication</p></li>
           </ul>
+          <!--  -->
+          <br>
+          <div class="tab-container">
+            <button class="tab-button" data-target="tab1"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Speakers</p></button>
+            <button class="tab-button" data-target="tab2"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Slides</p></button>
+            <button class="tab-button" data-target="tab3"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Recording</p></button>
+          </div>
+          
+          <div class="tab-content" id="tab1">
+            <p class="lead" style="margin-left: 15px;"><b>Emily Deibert</b>, CASCA Postdoctoral Committee (Gemini Observatory/NSF's NOIRLab)</p>
+            <p class="lead" style="margin-left: 15px;">More to come</p>
+          </div>
+          <div class="tab-content" id="tab2"><p class="lead" style="margin-left: 15px;">Will be posted following the session!</p></div>
+          <div class="tab-content" id="tab3"><p class="lead" style="margin-left: 15px;">Will be posted following the session!</p></div>
+          <!--  -->
         </div>
 
       </div>
@@ -199,6 +214,67 @@
   </div>
 </section>
 
+
+<!-- CSS for collapsible -->
+<!-- <style>
+  .tab-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  }
+
+  .tab-button {
+    background-color: rgba(0, 0, 0, 0.0);
+    color: black;
+    padding: 10px;
+    border: 1.25px solid rgba(0, 0, 0, 0.95);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1;
+  }
+
+  .tab-button.active,
+  .tab-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+
+  .tab-content {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+
+</style> -->
+
+<!-- JavaScript to toggle collapsible -->
+<!-- <script>
+  const buttons = document.querySelectorAll('.tab-button');
+  const contents = document.querySelectorAll('.tab-content');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      const targetId = button.getAttribute('data-target');
+      const targetContent = document.getElementById(targetId);
+      const isAlreadyActive = button.classList.contains('active');
+
+      // First, close all tabs
+      buttons.forEach(btn => btn.classList.remove('active'));
+      contents.forEach(content => content.style.display = 'none');
+
+      // If it wasn't already active, open it
+      if (!isAlreadyActive) {
+        button.classList.add('active');
+        targetContent.style.display = 'block';
+      }
+    });
+  });
+
+</script> -->
   <!-- <hr class="small"> -->
 <section id="session2" class="about">
   <div class="container">
@@ -216,6 +292,22 @@
             <li><p class="lead">Why this is the most important component of your application and what it accomplishes</p></li>
             <li><p class="lead">The qualities of a strong proposal; where to find examples; when & how to start writing</p></li>
           </ul>
+          <!--  -->
+          <br>
+          <div class="tab-container">
+            <button class="tab-button" data-target="tab4"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Speakers</p></button>
+            <button class="tab-button" data-target="tab5"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Slides</p></button>
+            <button class="tab-button" data-target="tab6"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Recording</p></button>
+          </div>
+          
+          <div class="tab-content" id="tab4">
+            <p class="lead" style="margin-left: 15px;"><b>Eric Koch</b> (Submillimeter Array & NSERC Fellow, Center for Astrophysics | Harvard & Smithsonian)</p>
+            <p class="lead" style="margin-left: 15px;"><b>Veronika Dornan</b>, CASCA Graduate Student Committee (McMaster University)</p>
+            <p class="lead" style="margin-left: 15px;"><b>Jess Speedie</b>, CASCA Graduate Student Committee (University of Victoria)</p>
+          </div>
+          <div class="tab-content" id="tab5"><p class="lead" style="margin-left: 15px;">Will be posted following the session!</p></div>
+          <div class="tab-content" id="tab6"><p class="lead" style="margin-left: 15px;">Will be posted following the session!</p></div>
+          <!--  -->
         </div>
 
       </div>
@@ -223,6 +315,67 @@
   </div>
 </section>
 
+
+<!-- CSS for collapsible -->
+<!-- <style>
+  .tab-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  }
+
+  .tab-button {
+    background-color: rgba(0, 0, 0, 0.0);
+    color: black;
+    padding: 10px;
+    border: 1.25px solid rgba(0, 0, 0, 0.95);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1;
+  }
+
+  .tab-button.active,
+  .tab-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+
+  .tab-content {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+
+</style> -->
+
+<!-- JavaScript to toggle collapsible -->
+<!-- <script>
+  const buttons = document.querySelectorAll('.tab-button');
+  const contents = document.querySelectorAll('.tab-content');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      const targetId = button.getAttribute('data-target');
+      const targetContent = document.getElementById(targetId);
+      const isAlreadyActive = button.classList.contains('active');
+
+      // First, close all tabs
+      buttons.forEach(btn => btn.classList.remove('active'));
+      contents.forEach(content => content.style.display = 'none');
+
+      // If it wasn't already active, open it
+      if (!isAlreadyActive) {
+        button.classList.add('active');
+        targetContent.style.display = 'block';
+      }
+    });
+  });
+
+</script> -->
   <!-- <hr class="small"> -->
 <section id="session3" class="about">
   <div class="container">
@@ -240,9 +393,30 @@
             <li><p class="lead">What an interview accomplishes, from the perspective of both sides: the selection committee and the applicant</p></li>
             <li><p class="lead">How to prepare for an interview; typical formats; what to put in your presentation; questions you may be asked; questions you may ask</p></li>
             <!-- mental preparation, science preparation,  -->
-            <li><p class="lead"><i><b>Featuring guest speakers:</b></i> Testimonies and insights shared from folks who have served on selection committees (representation from NSERC, USA, overseas)</p></li>
+            <li><p class="lead"><i><b>Featuring invited panelists:</b></i> Testimonies and insights shared from folks who have served on selection committees (representation from NSERC, USA, overseas)</p></li>
             <!-- <li><p class="lead">Representation from NSERC/PDF, representation from Europe, representation from overseas, representation from hiring committees, representation from faculty</p></li> -->
           </ul>
+          <!--  -->
+          <br>
+          <div class="tab-container">
+            <button class="tab-button" data-target="tab7"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Invited Panelists</p></button>
+            <button class="tab-button" data-target="tab70"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Speakers</p></button>
+            <button class="tab-button" data-target="tab8"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Slides</p></button>
+            <button class="tab-button" data-target="tab9"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Recording</p></button>
+          </div>
+          
+          <div class="tab-content" id="tab7">
+            <p class="lead" style="margin-left: 15px;"><b>John Blakeslee</b> (Head of Science Staff for Observatory Support, NOIRLab)</p>
+            <p class="lead" style="margin-left: 15px;"><b>Kristine Spekkens</b> (Professor, Queen's University )</p>
+            <p class="lead" style="margin-left: 15px;"><b>Kari Saumur</b> (Physics Program Officer, NSERC)</p>
+          </div>
+          <div class="tab-content" id="tab70">
+            <p class="lead" style="margin-left: 15px;"><b>Jess Speedie</b>, CASCA Graduate Student Committee (University of Victoria)</p>
+            <p class="lead" style="margin-left: 15px;"><b>Emily Deibert</b>, CASCA Postdoctoral Committee (Gemini Observatory/NSF's NOIRLab)</p>
+          </div>
+          <div class="tab-content" id="tab8"><p class="lead" style="margin-left: 15px;">Will be posted following the session!</p></div>
+          <div class="tab-content" id="tab9"><p class="lead" style="margin-left: 15px;">Will be posted following the session!</p></div>
+          <!--  -->
         </div>
 
       </div>
@@ -266,9 +440,28 @@
           <ul>
             <li><p class="lead">Differences amongst postdoctoral systems and hiring structures across the globe</p></li>
             <li><p class="lead">How everyone's path is different; representation of the diversity of considerations to making decisions</p></li>
-            <li><p class="lead"><i><b>Featuring guest speakers:</b></i> Testimonies and advice from previous or current postdocs with diverse experiences from around the world</p></li>
+            <li><p class="lead"><i><b>Featuring invited panelists:</b></i> Testimonies and advice from previous or current postdocs with diverse experiences from around the world</p></li>
             <!-- <li><p class="lead">Representation of two-body problem, representation of success in solving two-body problem, with balance of realism</p></li> -->
           </ul>
+          <!--  -->
+          <br>
+          <div class="tab-container">
+            <button class="tab-button" data-target="tab10"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Invited Panelists</p></button>
+            <button class="tab-button" data-target="tab11"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Slides</p></button>
+            <button class="tab-button" data-target="tab12"><p class="lead" style="margin-top: 0.1px; margin-bottom: 0.1px; ">Recording</p></button>
+          </div>
+          
+          <div class="tab-content" id="tab10">
+            <p class="lead" style="margin-left: 15px;"><b>J. J. Zanazzi</b> (51 Pegasi b Fellow, the University of California Berkeley)</p>
+            <p class="lead" style="margin-left: 15px;"><b>William Thompson</b> (Herzberg Instrument Science Fellow, NRC Herzberg Astronomy & Astrophysics)</p>
+            <p class="lead" style="margin-left: 15px;"><b>Matthew Taylor</b> (Assistant Professor of Astronomy, University of Calgary)</p>
+            <p class="lead" style="margin-left: 15px;"><b>Aromal Pathayappura</b> (Postdoctoral Researcher, Western University) </p>
+            <p class="lead" style="margin-left: 15px;"><b>Katie Crotts</b> (Postdoctoral Research Associate, Space Telescope Science Institute)</p>
+            <p class="lead" style="margin-left: 15px;"><b>Matías Bravo</b>, CASCA Postdoctoral Committee (McMaster University)</p>
+          </div>
+          <div class="tab-content" id="tab11"><p class="lead" style="margin-left: 15px;">Will be posted following the session!</p></div>
+          <div class="tab-content" id="tab12"><p class="lead" style="margin-left: 15px;">Will be posted following the session!</p></div>
+          <!--  -->
         </div>
 
       </div>
@@ -276,6 +469,54 @@
   </div>
 </section>
 
+
+
+<!-- CSS for collapsible -->
+<style>
+  .collapsible {
+    background-color: rgba(0, 0, 0, 0.05); /* Semi-transparent black */
+    color:black;
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    border: 1px solid black; /* Border */
+    border-radius: 10px; /* Rounded corners */
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+  }
+
+  .active, .collapsible:hover {
+    background-color: rgba(0, 0, 0, 0.2); /* Darker on hover/active */
+  }
+
+  .content-collapsible {
+    padding: 10px 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    border-radius: 10px; /* Match rounded corners */
+    margin-top: 5px;
+  }
+</style>
+
+<!-- JavaScript to toggle collapsible -->
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  for (var i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+</script>
   <hr class="small">
 <section id="loc" class="about">
   <div class="container">
